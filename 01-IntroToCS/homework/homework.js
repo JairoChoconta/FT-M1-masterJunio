@@ -15,12 +15,12 @@ function DecimalABinario(num) { //15
   // tu codigo aca:
   let resto = '';
   while ( num > 0 ) {
-    resto = (num % 2) + resto;
+    resto += (num % 2);
     num = Math.floor( num/2 ); //7.4 -> 7
   }
-  return resto; 
+  return resto.split('').reverse().join(''); 
 }
-
+console.log(DecimalABinario(4));
 module.exports = {
   BinarioADecimal,
   DecimalABinario,
