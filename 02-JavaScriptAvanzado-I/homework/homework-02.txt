@@ -1,0 +1,8 @@
+> Investiga cuál es la diferencia entre declarar una variable con `var` y directamente asignarle un valor.
+
+R/ La diferencia entre declara una variable con var y directamente asignarle un valor, es que, la variable declarada con var (o las variables declaradas en general) se limitan al contexto de ejecución en el cual son declaradas. En cambio, las variables no declaradas SIEMPRE SON GLOBALES.
+Con lo anterior se puede concluir que asignar valores directos a una variable sin haber sido declarada, puede ser una mala práctica porque ocupan más espacio innecesario en memoria.
+
+> Investigación ¿Qué diferencia hay entre declarar una variable con 'var' que con 'let'?
+
+R/ La diferencia es que si se declara con la palabra clave let, 'let' permite declarar variables limitando su scope (alcance) al bloque (de código; imaginar el bloque como el rectángulo que se dibuja en el execution context donde uno esté) o a su expresión donde se está usando, mientras que la palabra clave 'var' define una variable global o local en una función sin importar el ámbito del bloque.
