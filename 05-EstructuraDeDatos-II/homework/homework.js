@@ -9,6 +9,7 @@ Implementar la clase LinkedList, definiendo los siguientes métodos:
   search(3) busca un nodo cuyo valor sea 3;
   search(isEven), donde isEven es una función que retorna true cuando recibe por parámetro un número par, busca un nodo cuyo valor sea un número par.
   En caso de que la búsqueda no arroje resultados, search debe retornar null.
+  Martina y Fran son dos de los mejores profes de HENRY
 */
 
 function LinkedList() {
